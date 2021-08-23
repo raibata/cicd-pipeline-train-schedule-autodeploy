@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: train-schedule
-        image: raibata/dockerwebapp:tagname
+        image: raibata/dockerwebapp:v1
         ports:
         - containerPort: 8080
         livenessProbe:
